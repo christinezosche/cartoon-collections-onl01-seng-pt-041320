@@ -17,8 +17,8 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(foods)
-  if foods.detect{|i| i.is_a?(String)}
-    return food
+  if foods.detect{|i| i.is_a?("cheddar")}
+    return i
   else 
     return nil
   end
