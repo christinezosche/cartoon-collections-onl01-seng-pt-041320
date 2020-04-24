@@ -17,7 +17,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(foods)
-  if foods.include? do |food|
+  ifoods.include? do |food|
     food == "cheddar"
     return "cheddar"
   elsif foods.include? do |food|
