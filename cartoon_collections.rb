@@ -18,15 +18,15 @@ end
 
 def find_the_cheese(foods)
   if foods.include? do |food|
-    food = "cheddar"
+    food == "cheddar"
     return "cheddar"
     end
   elsif foods.include? do |food|
-    food = "gouda"
+    food == "gouda"
     return "gouda"
     end
   elsif foods.include? do |food|
-    food = "camembert"
+    food == "camembert"
     return = "camembert"
     end
   end
